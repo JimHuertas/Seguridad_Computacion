@@ -7,3 +7,5 @@ vs.code
 
 #cache python
 **/__pycache__
+
+.DS_STORE
