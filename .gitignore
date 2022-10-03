@@ -1,0 +1,9 @@
+#Execute programs
+*exe
+*.out
+
+#vs_code
+vs.code
+
+#cache python
+**/__pycache__
