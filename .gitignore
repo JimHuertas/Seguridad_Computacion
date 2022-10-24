@@ -3,7 +3,7 @@
 *.out
 
 #vs_code
-vs.code
+.vscode
 
 #cache python
 **/__pycache__
