@@ -8,7 +8,7 @@ if __name__ == "__main__":
         line = txt.readline()
         print("Cifrado: \n", line, '\n')
         key = input("Clave: ")
-        new_ = VIG2.decipher(line, key)
+        new_ = VIG2.decipher(line.lower(), key)
         print("\nDescifrado: \n",new_)
         
         # print("\nSin Clave:")

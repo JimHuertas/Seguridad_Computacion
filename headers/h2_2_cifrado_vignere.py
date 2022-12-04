@@ -128,6 +128,7 @@ def cifrado_vignere(M, clave, mod):
     with open(M) as txt:
         lines = txt.readlines()
         for line in lines:
+            line = line.lower()
             if(mod == 1):#27
                 cifrado = vignere_27(line,clave)
             else:#mod 191
@@ -136,7 +137,7 @@ def cifrado_vignere(M, clave, mod):
 
 def decifrado_vignere(M, clave, n=27):
     decifrado = ""
-    clave = clave.upper()
+    clave = clave.lower()
     cont = 0
     for i in M:
         actual = clave[cont % len(clave)]
